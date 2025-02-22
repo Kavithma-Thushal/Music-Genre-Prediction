@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
-<body class="bg-light">
-
+<body>
 <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
     <div class="card p-4 shadow-sm" style="width: 100%; max-width: 500px;">
         <h1 class="text-center mb-4">Predict Music Genre</h1>
@@ -28,7 +27,7 @@
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+            <button type="submit" class="btn btn-primary btn-block mt-4">Predict</button>
         </form>
 
         {% if prediction %}
@@ -46,9 +45,6 @@
         {% endif %}
     </div>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -9,6 +9,7 @@ genres based on age and gender.
 ✅ Flask<br/>
 ✅ Bootstrap<br/>
 ✅ Pandas<br/>
+✅ Jinja2<br/>
 ✅ Joblib<br/>
 ✅ Scikit-learn<br/>
 
