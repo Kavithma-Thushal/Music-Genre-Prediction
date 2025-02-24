@@ -6,8 +6,8 @@ import joblib
 # Load dataset
 model_data = pd.read_csv('music.csv')
 
-# Convert gender to numeric values (Male -> 0, Female -> 1)
-model_data['gender'] = model_data['gender'].map({'Male': 0, 'Female': 1})
+# Convert gender to numeric values (Female -> 0, Male -> 1)
+model_data['gender'] = model_data['gender'].map({'Female': 0, 'Male': 1})
 
 # Prepare features and labels
 X = model_data.drop(columns=['genre'])  # Features

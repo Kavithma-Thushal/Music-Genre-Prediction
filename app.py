@@ -16,8 +16,8 @@ def index():
             age = request.form['age']
             gender_str = request.form['gender']
 
-            # Convert gender to numeric (Male -> 0, Female -> 1)
-            gender = 0 if gender_str == "Male" else 1
+            # Convert gender to numeric (Female -> 0, Male -> 1)
+            gender = 0 if gender_str == "Female" else 1
 
             # Create DataFrame for the input with correct feature names
             input_data = pd.DataFrame([[age, gender]], columns=['age', 'gender'])

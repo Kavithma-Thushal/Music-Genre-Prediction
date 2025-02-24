@@ -1,13 +1,4 @@
 age,gender,genre
-20,Male,HipHop
-23,Male,HipHop
-25,Male,HipHop
-26,Male,Jazz
-28,Male,Jazz
-30,Male,Jazz
-31,Male,Classical
-33,Male,Classical
-37,Male,Classical
 20,Female,Dance
 23,Female,Dance
 25,Female,Dance
@@ -17,3 +8,12 @@ age,gender,genre
 31,Female,Classical
 33,Female,Classical
 37,Female,Classical
+20,Male,HipHop
+23,Male,HipHop
+25,Male,HipHop
+26,Male,Jazz
+28,Male,Jazz
+30,Male,Jazz
+31,Male,Classical
+33,Male,Classical
+37,Male,Classical
